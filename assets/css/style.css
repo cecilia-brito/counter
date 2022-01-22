@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mochiy+Pop+P+One&family=Poppins&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(/assets/images/img-background.svg);
+    background-color: #FFA7E4 ;
+    color: #b9b9b9;
+}
+
+.container{
+    background-color: #FFEEF9;
+    width: 40rem;
+    height: 20rem;
+    margin: 7.1rem auto;
+    border-radius: 5rem;
+    padding: 2rem;
+    box-shadow: 0.8rem 0.8rem #999999;
+}
+
+h1{
+    color: #F8E2F0;
+    text-align: center;
+    text-shadow: 0.4rem 0.4rem #ff74d5;
+    font-size: 4rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+p{
+    color: #999999;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    width: 40rem;
+    margin: 2.5rem auto 2rem auto;
+}
+
+.bar-controllers{
+    width: 20rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-incre-and-decre{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #ff74d5;
+    border: none;
+    transition: .2s all;
+}
+
+.btn-incre-and-decre:hover{
+    background-color: #ff3ac4;
+}
+
+#counter{
+    font-size: 3rem;
+}
+
+
+footer{
+    background-color: #ff3ac4;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer p{
+    color: #F8E2F0;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    width: 22rem;
+    line-height: 2rem;
+}
+
+
+ul{
+    width: 12rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+ul li img{
+    fill:rgb(248,226,240);
+}
+
+ul li img:hover{
+    transform: scale(1.2);
+}
+
+.separator{
+    font-size: 2rem;
+}
