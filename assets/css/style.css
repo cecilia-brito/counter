@@ -12,8 +12,8 @@ body{
 
 .container{
     background-color: #FFEEF9;
-    width: 40rem;
-    height: 20rem;
+    max-width: 40rem;
+    max-height: 20rem;
     margin: 7.1rem auto;
     border-radius: 5rem;
     padding: 2rem;
@@ -33,7 +33,7 @@ p{
     font-size: 2.5rem;
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    width: 40rem;
+    max-width: 40rem;
     margin: 2.5rem auto 2rem auto;
 }
 
@@ -64,10 +64,13 @@ p{
 
 
 footer{
+    position: absolute;
+    bottom: 0;
     background-color: #ff3ac4;
     width: 100%;
+    max-height: 20rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3.5%;
 }
 
 footer p{
